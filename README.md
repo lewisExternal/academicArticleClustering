@@ -22,13 +22,13 @@ The below will generate a CSV file of DOI numbers from jamanetwork.com (i.e. res
  - bin/1.run_scraping_doi.sh (Unix)
 
 A CSV file with DOIs must be provided for the result/dois.csv. The following will lookup PDFs using multi processing and converts them to dictionary objects which are saved to .txt files within direcotry: result\pdf_transforms where possible. 
-- bin/2. run_scraping_pdf.bat
-- bin/2. run_scraping_pdf.sh 
+- bin/2.run_scraping_pdf.bat
+- bin/2.run_scraping_pdf.sh 
 
 There must be processed articles within the result\pdf_transforms direcotry for the following to run. The below will read in the processed articles, cleanse the text, run TfidfVectorizer and then PCA. Create a k means elbow graph to determine suitability of our chosen k value (within config.ini). Runs k means clustering and uses t-SNE dimensionality reduction to view the article clusters in two dimensions. Then uses LDA (Latent Dirichlet Allocation) to generate word clouds for the saved clusters. 
  
-- bin/3. run_train_model.bat
-- bin/3. run_train_model.sh
+- bin/3.run_train_model.bat
+- bin/3.run_train_model.sh
 
 This approach was derived in a large part from the following source [COVID19 literature clustering](https://maksimekin.github.io/COVID19-Literature-Clustering/COVID19_literature_clustering.html).
 
