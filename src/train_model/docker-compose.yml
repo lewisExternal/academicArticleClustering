@@ -1,0 +1,11 @@
+services:
+  web:
+    container_name: train_model
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../../result:/result
+      - ../../logs:/logs
+    stdin_open: true   
+    tty: true   
