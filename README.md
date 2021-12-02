@@ -37,11 +37,16 @@ This approach was derived in a large part from the following source [COVID19 lit
 The model training will run K means clustering and produce the following.
 
 ### t-SNE plot 
+![improved_cluster_tsne](https://user-images.githubusercontent.com/81447748/144386061-2498a4a3-2e8c-41d3-ae74-39de42b268e6.png)
 
 ### Elbow plot showing the optimal k 
+![k_means_elbow](https://user-images.githubusercontent.com/81447748/144386189-07bb73b3-665e-4beb-81d5-0589bd65a0ad.png)
 
 ### Word clouds 
-
+![wc_cluster_0](https://user-images.githubusercontent.com/81447748/144386308-a8ccc5d7-e9dd-4381-a69c-8af4a42dbf12.png)
+![wc_cluster_1](https://user-images.githubusercontent.com/81447748/144386385-60ce287e-18e6-4809-bcc7-96143b601ce4.png)
+![wc_cluster_2](https://user-images.githubusercontent.com/81447748/144386436-9bde9242-1994-4830-9b96-8c2d30b84c40.png)
+![wc_cluster_3](https://user-images.githubusercontent.com/81447748/144386507-39d70836-1233-4b8e-af0a-febd25ade4c5.png)
 
 ## Requirements
  1.  [Docker](https://www.docker.com/products/personal)  
